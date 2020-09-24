@@ -8,7 +8,7 @@
 # This Revision: $Id: Makefile 277 2007-03-20 10:53:33Z cs $
 #atmega644 fuer Serienbord
 
-DEVICE     = atmega328p
+DEVICE     = atmega8
 CLOCK      = 8000000
 PROGRAMMER = -c usbasp -P usb
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -v
